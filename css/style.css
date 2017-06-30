@@ -33,6 +33,10 @@ p{
 	list-style: none;
 }
 
+label{
+	color: white;
+}
+
 
 @media (max-width: 800px){
 	.img{
