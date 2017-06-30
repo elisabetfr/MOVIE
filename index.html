@@ -2,36 +2,67 @@
 	<html lang="en">
 		<head>
 			<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 			<title>CineMovie</title>
-			<link rel="stylesheet" href="/css/bootstrap.min.css">
-			<link rel="stylesheet" href="/css/style.css">
+			<link rel="stylesheet" href="css/bootstrap.min.css">
+			<link rel="stylesheet" href="css/style.css">
 		</head>
 		<body>
 			<header>
-				<nav>
-					<ul>
-						<li><a href="#">CineMovie</a></li>
-						<li><a href="technical-spec.html">Tech Specs</a></li>
-						<li><a href="buy-tickets.html">Buy Tickets</a></li>
+				<nav class="box-red">
+					<ul class="nav justify-content-center">
+						<li class="nav-item"><a class="nav-link" href="#">CineMovie</a></li>
+						<li class="nav-item"><a class="nav-link" href="technical-spec.html">Tech Specs</a></li>
+						<li class="nav-item"><a class="nav-link" href="buy-tickets.html">Buy Tickets</a></li>
 					</ul>
 				</nav>
 			</header>
 
-			<div>
-				<img src="qwerty.png" alt="">
-				<button>+ Info</button>
+			<div class="container-fluid m-0 p-0">
+				<img src="images/img-header.jpg" alt="imagen de cabecera" class="img">
+				<button type="button" class="info btn btn-info">
+					<a href="technical-spec.html">+ Info</a>
+				</button>
 			</div>
 			
 			<section>
-				<article>
-					<img src="pelicula1.jpg" alt="">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, pariatur dolore quos! Reprehenderit, omnis impedit saepe vitae blanditiis corrupti earum modi dolor placeat praesentium, ipsam recusandae, voluptas corporis deleniti porro.</p>
-					<button>Buy Ticket</button>
+				<article class="container">
+					<div class="row box-red">
+						<div class="col-4">
+							<img src="images/pelicula1.jpg" alt="">
+						</div>
+						
+						<div class="col-4 box-blue">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, pariatur dolore quos! Reprehenderit, omnis impedit saepe vitae blanditiis corrupti earum modi dolor placeat praesentium, ipsam recusandae, voluptas corporis deleniti porro.</p>
+						</div>
+						
+
+						<div class="col-4 box-yellow">
+							<button>Buy Ticket</button>	
+						</div>
+						
+					</div>
+
 				</article>
-				<article>
-					<img src="pelicula2.jpg" alt="">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit reprehenderit libero doloribus pariatur facilis, expedita mollitia, rerum repudiandae, veritatis voluptas sequi quisquam. Harum omnis nihil libero sapiente odio eligendi facere.</p>
-					<button>Buy Ticket</button>
+
+
+				<article class="container">
+					<div class="row box-red">
+						<div class="col-4">
+							<img src="images/pelicula2.jpg" alt="">
+						</div>
+						
+						<div class="col-4 box-blue">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, pariatur dolore quos! Reprehenderit, omnis impedit saepe vitae blanditiis corrupti earum modi dolor placeat praesentium, ipsam recusandae, voluptas corporis deleniti porro.</p>
+						</div>
+						
+
+						<div class="col-4 box-yellow">
+							<button>Buy Ticket</button>	
+						</div>
+						
+					</div>
+
 				</article>
 			</section>
 

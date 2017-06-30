@@ -1,0 +1,42 @@
+body{
+	background-image: url(../images/dark-triangles.png);
+}
+p{
+	color: white;
+}
+
+.info{
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+
+.box-red{
+	background-color: red;
+}
+.box-blue{
+	background-color: blue;
+}
+.box-yellow{
+	background-color: yellow;
+}
+
+.img{
+	position: relative;
+	z-index: -3;
+	width: 100%;
+	height: 300px;
+}
+
+
+@media (max-width: 800px){
+	.img{
+		height: 200px;
+	}
+}
+
+@media (max-width: 500px){
+	.img{
+		height: 100px;
+	}
+}
