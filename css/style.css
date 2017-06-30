@@ -28,6 +28,11 @@ p{
 	height: 300px;
 }
 
+.navegador{
+	text-decoration: none;
+	list-style: none;
+}
+
 
 @media (max-width: 800px){
 	.img{
