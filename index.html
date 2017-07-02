@@ -8,6 +8,8 @@
 			<link rel="stylesheet" href="css/style.css">
 		</head>
 		<body>
+
+			<!-- Cabecera de la página. Contiene una navegación con 3 enlaces a distintas páginas -->
 			<header>
 				<nav>
 					<ul class="nav justify-content-center">
@@ -18,7 +20,8 @@
 				</nav>
 			</header>
 
-			<div class="index-header container-fluid m-0 p-0">
+			<!-- Imagen situada en la parte superior de la página y botón que lleva a la página que contiene la información -->
+			<div class="index-header container-fluid m-0 p-0 img">
 				<img src="images/img-header.jpg" alt="imagen de cabecera" class="img">
 				<button type="button" class="info btn btn-info">
 					<a href="technical-spec.html">+ Info</a>
@@ -26,46 +29,25 @@
 			</div>
 			
 			<section class="peliculas-index">
+				
+				<!-- Trailer de la pelicula y botón que lleva a la compra de las entradas -->
 				<article class="container">
-					<div class="row box-red">
-						<div class="col-4">
-							<img src="images/pelicula1.jpg" alt="">
+
+					<div class="row trailer">
+						<div class="col-8">
+							<iframe class="trailer-video" width="600" height="350" src="https://www.youtube.com/embed/rTflCf1gKzM" frameborder="0" allowfullscreen></iframe>
 						</div>
-						
-						<div class="col-md-4 col-12">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, pariatur dolore quos! Reprehenderit, omnis impedit saepe vitae blanditiis corrupti earum modi dolor placeat praesentium, ipsam recusandae, voluptas corporis deleniti porro.</p>
-						</div>
-						
 
 						<div class="col-4">
-							<button>Buy Ticket</button>	
+							<button type="button"><a href="buy-tickets.html">Buy Ticket</a></button>	
 						</div>
-						
 					</div>
 
 				</article>
 
-
-				<article class="container">
-					<div class="row box-red">
-						<div class="col-4">
-							<img src="images/pelicula2.jpg" alt="">
-						</div>
-						
-						<div class="col-md-4 col-12">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, pariatur dolore quos! Reprehenderit, omnis impedit saepe vitae blanditiis corrupti earum modi dolor placeat praesentium, ipsam recusandae, voluptas corporis deleniti porro.</p>
-						</div>
-						
-
-						<div class="col-4 box-yellow">
-							<button>Buy Ticket</button>	
-						</div>
-						
-					</div>
-
-				</article>
 			</section>
 
+			<!-- Footer de la página. Contiene el logo de la empresa, una navegación y su copy right -->
 			<footer class="container-fluid footer-page">
 
 				<div class="row">
@@ -83,7 +65,7 @@
 					</div>
 
 					<div class="col-4">
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione quas molestias, fuga modi cum harum tempora tenetur architecto id asperiores nulla nobis sit, amet, reprehenderit officiis dolores, voluptates dicta voluptate.</p>
+						<p>&copy CineMovie 2017</p>
 					</div>
 				</div>
 
