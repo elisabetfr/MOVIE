@@ -20,7 +20,8 @@ header{
 	width: 100%;
 }
 
-/* Botón de información situado en la cabecera de la primera página */
+/* Botón de información situado en la cabecera de la
+primera página */
 
 .info{
 	position: absolute;
@@ -28,7 +29,8 @@ header{
 	right: 0px;
 }
 
-/* Botón de información situado en la cabecera de la tercera página */
+/* Botón de información situado en la cabecera de la
+tercera página */
 
 .informacion-header img{
 	vertical-align: middle;
@@ -134,7 +136,8 @@ label{
     padding: 60px;	
 }
 
-/* Imagen situada en la parte superior izquierda de la segunda página */
+/* Imagen situada en la parte superior izquierda de la
+segunda página */
 
 .image-header-tech{
 	text-align: right;
